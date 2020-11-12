@@ -25,7 +25,7 @@ end
 def initial_round
   num = deal_card + deal_card
   display_card_total(num)
-  return num
+  num
 end
 
 def invalid_command
